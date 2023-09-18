@@ -43,17 +43,17 @@ Source Code :<br />
 }
 ``` 
 Screenshot : <br />
-![Screen shoot insert data](../Modul2/Screenshots/insertDataMangoDB2.png)
+![Screen shoot insert data](../Modul2/Screenshots/insertDataMangoDB2.png)<br />
 5. Melakukan pencarian buku dengan author “Osamu Dazai” dengan mengisi filter yang
 diinginkan dan klik “Find” <br />
-![Screen shoot find author](../Modul2/Screenshots/findOsamu.png)
-5. Melakukan perubahan summary pada buku “No Longer Human” menjadi “Buku yang
+![Screen shoot find author](../Modul2/Screenshots/findOsamu.png)<br />
+6. Melakukan perubahan summary pada buku “No Longer Human” menjadi “Buku yang
 bagus (<NAMA>,<NIM>) dengan melakukan klik “Edit Document” (berlambang
 pensil), mengisi nilai summary yang baru, dan melakukan klik “Update” <br />
-![Screen shoot update summary](../Modul2/Screenshots/updateSummary.png)
-6. Lakukan penghapusan pada buku “I Am a Cat” dengan melakukan klik “Remove
+![Screen shoot update summary](../Modul2/Screenshots/updateSummary.png)<br />
+7. Lakukan penghapusan pada buku “I Am a Cat” dengan melakukan klik “Remove
 Document” (berlambang tong sampah) dan melakukan klik “Delete” <br />
-![Screen shoot delete book](../Modul2/Screenshots/deleteBook.png)
+![Screen shoot delete book](../Modul2/Screenshots/deleteBook.png)<br />
 ## MongoDB Shell
 1. Melakukan koneksi ke MongoDB Server dengan menjalankan command mongosh bagi
 yang menggunakan terminal build in OS sehingga tampilan terminal kalian akan
