@@ -24,4 +24,22 @@ Source Code :<br />
 Screenshot : <br />
 ![Screen shoot insert data](../Modul2/Screenshots/insertDataMangoDB.png)
 4. Melakukan insert buku kedua dengan cara yang sama. <br />
-![Screen shoot insert data ke 2](../Modul2/Screenshots/insertDataMangoDB2.png)
+Source Code :<br />
+```
+/** 
+* Paste one or more documents here
+*/
+{
+  "_id": {
+    "$oid": "650829ed1044825c9f07cbac"
+  },
+  "title": "I am a Cat",
+  "author": "Natsume Souseki",
+  "year": 1905,
+  "pages": 532,
+  "summary": "Lorem ipsum dolor si amet",
+  "publisher":"Gramedia"
+}
+``` 
+Screenshot : <br />
+![Screen shoot insert data](../Modul2/Screenshots/insertDataMangoDB2.png)
