@@ -90,17 +90,27 @@ Screenshot : <br />
 ![Screen shoot insert many book data](../Modul2/Screenshots/insertDataMany.png)<br />
 5. Melakukan pencarian buku dengan menggunakan command db.books.find() untuk
 melakukan pencarian semua buku.
-![Screen shoot show collections](../Modul2/Screenshots/findBook.png)<br />
+![Screen shoot find book](../Modul2/Screenshots/findBook.png)<br />
 6. Tampilkan seluruh buku dengan author “Osamu Dazai” dengan mengisi argument
 pada find() dengan menggunakan command db.books.find({<filter yang ingin
 diisi>}) <br />
-![Screen shoot show collections](../Modul2/Screenshots/findSpesificBook.png)<br />
-7. Lakukan perubahan summary pada buku “Hujan” menjadi “Buku yang bagus
+![Screen shoot find spesific book](../Modul2/Screenshots/findSpesificBook.png)<br />
+7. Melakukan perubahan summary pada buku “Hujan” menjadi “Buku yang bagus
 (<NAMA>,<NIM>) dengan mengunakan command db.books.updateOne({<filter>},
 {$set: {<data yang akan di update>}}) sehingga output yang dihasilkan oleh MongoDB
 akan menjadi seperti berikut <br />
-![Screen shoot show collections](../Modul2/Screenshots/updateData.png)<br />
-8. 
+![Screen shoot update book data](../Modul2/Screenshots/updateData.png)<br />
+8. Melakukan perubahan publisher menjadi “Yen Press” pada semua buku “Osamu
+Dazai” dengan menggunakan command db.books.updateMany({<filter>}, {$set: {<data
+yang akan di update>}})<br />
+![Screen shoot update book data](../Modul2/Screenshots/updateMany.png)<br />
+9. Melakukan penghapusan pada buku “Overlord I” dengan menggunakan command
+db.books.deleteOne({<argument>})<br />
+![Screen shoot delete book data](../Modul2/Screenshots/deleteData.png)<br />
+10.Melakukan penghapusan pada semua buku “Osamu Dazai dengan menggunakan
+command db.books.deleteMany({<argument>})<br />
+![Screen shoot delete many book data](../Modul2/Screenshots/deleteManyBook.png)<br />
+
 
 
 
